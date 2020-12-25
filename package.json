@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "snowpack dev",
-    "dist": "snowpack build"
+    "build": "snowpack build"
   },
   "author": "",
   "license": "ISC"
