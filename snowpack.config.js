@@ -12,7 +12,7 @@ module.exports = {
     // Allows snowpack to compile typescript files
     '@snowpack/plugin-typescript',
   ],
-  installOptions: {
+  packageOptions: {
     /* ... */
   },
   devOptions: {
