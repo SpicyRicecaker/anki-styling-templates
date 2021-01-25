@@ -1,0 +1,53 @@
+// Overall card
+.card {
+  font-family: Arial;
+  font-size: 2rem;
+  text-align: center;
+  color: #333333;
+}
+
+// The content within the card
+.body {
+  padding: 1rem;
+  box-shadow: 0rem 0.1rem 0.3rem 0.1rem lightgray;
+}
+
+// Root and meaning
+.root,
+.meaning {
+  padding: 0 1rem;
+}
+
+// The line break in between
+#answer {
+  padding: 0.04rem;
+  background-color: lightgray;
+  border: none;
+}
+
+// breaking symbol
+.break {
+  font-size: 1.5rem;
+}
+
+// extra info that we usually don't read lol
+.extra {
+  font-size: 1rem;
+  color: gray;
+  // All the important info
+  & .etymology {
+    color: black;
+  }
+  & .origin {
+    color: #f1c232f0;
+  }
+}
+
+.examples {
+  margin: 0 auto;
+  text-align: left;
+  padding: 5rem 1rem;
+  font-size: 1rem;
+  width: 40%;
+  // display: none;
+}
