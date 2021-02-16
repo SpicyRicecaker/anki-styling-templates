@@ -1,41 +1,20 @@
-importers:
-  main:
-    devDependencies:
-      '@tsconfig/svelte': 1.0.10
-      '@types/node': 14.14.28
-      cross-env: 7.0.3
-      css-loader: 5.0.2_webpack@5.22.0
-      mini-css-extract-plugin: 1.3.7_webpack@5.22.0
-      sass: 1.32.7
-      svelte: 3.32.3
-      svelte-check: 1.1.34_sass@1.32.7+svelte@3.32.3
-      svelte-loader: 3.0.0_svelte@3.32.3
-      svelte-preprocess: 4.6.9_60afa32bf41105c5b3893d9a2a2e4b7e
-      ts-loader: 8.0.17_typescript@4.1.5+webpack@5.22.0
-      tslib: 2.1.0
-      typescript: 4.1.5
-      webpack: 5.22.0_webpack-cli@4.5.0
-      webpack-cli: 4.5.0_7ea4de9d9b7336d7eacf8028e181c240
-      webpack-dev-server: 3.11.2_webpack-cli@4.5.0+webpack@5.22.0
-    specifiers:
-      '@tsconfig/svelte': ^1.0.10
-      '@types/node': ^14.14.28
-      cross-env: ^7.0.3
-      css-loader: ^5.0.2
-      mini-css-extract-plugin: ^1.3.7
-      sass: ^1.32.7
-      svelte: ^3.32.3
-      svelte-check: ^1.1.34
-      svelte-loader: ^3.0.0
-      svelte-preprocess: ^4.6.9
-      ts-loader: ^8.0.17
-      tslib: ^2.1.0
-      typescript: ^4.1.5
-      webpack: ^5.22.0
-      webpack-cli: ^4.5.0
-      webpack-dev-server: ^3.11.2
-  misc:
-    specifiers: {}
+devDependencies:
+  '@tsconfig/svelte': 1.0.10
+  '@types/node': 14.14.28
+  cross-env: 7.0.3
+  css-loader: 5.0.2_webpack@5.22.0
+  mini-css-extract-plugin: 1.3.7_webpack@5.22.0
+  sass: 1.32.7
+  svelte: 3.32.3
+  svelte-check: 1.1.34_sass@1.32.7+svelte@3.32.3
+  svelte-loader: 3.0.0_svelte@3.32.3
+  svelte-preprocess: 4.6.9_60afa32bf41105c5b3893d9a2a2e4b7e
+  ts-loader: 8.0.17_typescript@4.1.5+webpack@5.22.0
+  tslib: 2.1.0
+  typescript: 4.1.5
+  webpack: 5.22.0_webpack-cli@4.5.0
+  webpack-cli: 4.5.0_7ea4de9d9b7336d7eacf8028e181c240
+  webpack-dev-server: 3.11.2_webpack-cli@4.5.0+webpack@5.22.0
 lockfileVersion: 5.2
 packages:
   /@discoveryjs/json-ext/0.5.2:
@@ -3957,3 +3936,20 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+specifiers:
+  '@tsconfig/svelte': ^1.0.10
+  '@types/node': ^14.14.28
+  cross-env: ^7.0.3
+  css-loader: ^5.0.2
+  mini-css-extract-plugin: ^1.3.7
+  sass: ^1.32.7
+  svelte: ^3.32.3
+  svelte-check: ^1.1.34
+  svelte-loader: ^3.0.0
+  svelte-preprocess: ^4.6.9
+  ts-loader: ^8.0.17
+  tslib: ^2.1.0
+  typescript: ^4.1.5
+  webpack: ^5.22.0
+  webpack-cli: ^4.5.0
+  webpack-dev-server: ^3.11.2

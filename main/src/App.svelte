@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  // import { onMount } from 'svelte';
 
-  import BasicReversedType from './BasicReversedType.svelte';
+  import BasicReversedType from './BasicReversedType/BasicReversedType.svelte';
   import LatinStems from './LatinStems.svelte';
 
   const storage = window.localStorage;
@@ -30,7 +30,6 @@
   }
 
   $: {
-    console.log(activeTemplate, 'CHANGED');
     storage.setItem('activeTemplate', activeTemplate.toString());
   }
 </script>
@@ -42,29 +41,35 @@
         <option value={template.value}>{template.description}</option>
       {/each}
     </select>
-    <div>
-      <div class="template">
-        {#each templates as template}
-          {#if activeTemplate === template.value}
-            <svelte:component this={template.component} />
-          {/if}
-        {/each}
-      </div>
-    </div>
+  </div>
+  <div class="template">
+    {#each templates as template}
+      {#if activeTemplate === template.value}
+        <svelte:component this={template.component} />
+      {/if}
+    {/each}
   </div>
 </main>
 
 <style lang="scss">
+  :global(body) {
+    padding: 0;
+    margin: 0;
+  }
   main {
     display: grid;
-    grid-template-areas:
-      'select' minmax(0, 1fr)
+    grid-template:
+      'select' minmax(0, 3rem)
       'template' minmax(0, 8fr);
+    width: 100%;
+    height: 100%;
   }
 
   .select {
     grid-area: select;
-    background-color: #292828;
+    align-self: stretch;
+    justify-self: stretch;
+    background-color: #2b2b2b;
   }
 
   .template {

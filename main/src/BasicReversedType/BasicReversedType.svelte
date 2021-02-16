@@ -10,3 +10,11 @@
     {@html '{{type::Back}}'}
   </div>
 </div>
+
+<style lang="scss">
+  @use 'BasicReversedTypeStyles';
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+</style>

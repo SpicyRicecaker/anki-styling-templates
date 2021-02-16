@@ -1,0 +1,14 @@
+{
+  "name": "misc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "css.js",
+  "scripts": {
+    "build": "pnpx tsc",
+    "dev": "pnpx tsc --watch",
+    "start": "node css.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}

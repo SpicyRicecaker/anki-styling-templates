@@ -1,0 +1,30 @@
+.card,
+.card.nightMode {
+  font-family: arial;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #292828;
+  color: #d4be98;
+}
+
+// front
+.front {
+  color: #d4be98;
+}
+
+input {
+  text-align: center;
+  background-color: #292828;
+  color: #d4be98;
+  outline: none;
+  border: none;
+  padding: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.type {
+  font-family: arial;
+}
