@@ -1,6 +1,8 @@
 {
   "scripts": {
     "build": "pnpm run --parallel build",
-    "start": "pnpm run --parallel start"
+    "start": "pnpm run --parallel start",
+    "dev": "pnpm run --parallel --stream dev",
+    "all": "pnpm build && pnpm start"
   }
 }

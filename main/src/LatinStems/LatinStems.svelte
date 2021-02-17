@@ -3,20 +3,19 @@
 
 <div class="card">
   <div class="body">
-    <div class="frontActual">
-      <span class="front">
-        {@html '{{Front}}'}
+    <div class="rootActual">
+      <span class="root">
+        {@html '{{Root}}'}
       </span>
     </div>
     <div class="type">
-      {@html '{{type::Back}}'}
+      {@html '{{type::Meaning in English}}'}
     </div>
   </div>
 </div>
 
 <style lang="scss">
-  @use 'BasicReversedTypeStyles';
-  
+  @use 'LatinStems';
   .card {
     width: 100%;
     height: 100%;

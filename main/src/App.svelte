@@ -2,7 +2,8 @@
   // import { onMount } from 'svelte';
 
   import BasicReversedType from './BasicReversedType/BasicReversedType.svelte';
-  import LatinStems from './LatinStems.svelte';
+  import LatinStems from './LatinStems/LatinStems.svelte';
+  import LatinStemsBack from './LatinStemsBack/LatinStemsBack.svelte';
 
   const storage = window.localStorage;
 
@@ -16,6 +17,11 @@
       description: 'Latin Stems',
       value: 1,
       component: LatinStems,
+    },
+    {
+      description: 'Latin Stems Back',
+      value: 2,
+      component: LatinStemsBack,
     },
   ];
 
@@ -69,7 +75,7 @@
     grid-area: select;
     align-self: stretch;
     justify-self: stretch;
-    background-color: #2b2b2b;
+    background-color: white;
   }
 
   .template {
